@@ -19,7 +19,7 @@ defmodule Floki.Mixfile do
 
   defp deps do
     [
-      {:mochiweb, github: "mochi/mochiweb", tag: "v2.13.0"},
+      {:mochiweb, github: "mochi/mochiweb", tag: "v2.13.1"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.8", only: :dev},
       {:inch_ex, only: :docs}
